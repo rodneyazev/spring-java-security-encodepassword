@@ -12,7 +12,7 @@ public class EncodePassword {
 		String hashedPassword1 = passwordEnconder.encode(password1);
 		System.out.println("USER password bcrypt hash encoder:\t" + hashedPassword1);
 		
-		String password2 = "ADIM";
+		String password2 = "ADMIN";
 		String hashedPassword2 = passwordEnconder.encode(password2);
 		System.out.println("ADMIN password bcrypt hash encoder:\t" + hashedPassword2);
 
